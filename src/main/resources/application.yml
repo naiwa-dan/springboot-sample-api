@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+spring:
+  application:
+    name: springboot-sample-api
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  name: SpringBoot Sample API
+  version: 1.0.0
+
+logging:
+  level:
+    root: INFO
+    com.example.sampleapi: DEBUG
